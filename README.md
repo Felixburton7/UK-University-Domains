@@ -1,4 +1,4 @@
-# University Domain pulled from an API, with search capabilities
+# A Clean Architecture project I created, that you can refactor to use with a different API.
 
 ## Project Description
 
