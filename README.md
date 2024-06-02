@@ -25,6 +25,9 @@ The data layer is responsible for handling data retrieval and storage. It intera
 - `data/models/article_model.dart`
 - `data/repos/implemented_article_repo.dart`
 
+ **How to run:**
+ Simply clone, download dependencies and enter 'Flutter run' !
+
 **Example:**
 ```dart
 class GettingArticleDataSource {
