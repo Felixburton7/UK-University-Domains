@@ -13,7 +13,7 @@ class UniversityMainPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            UniversityTextField(),
+            UniversityTextField(articlesBloc: context.read<ArticlesBloc>()),
             Expanded(
               child: BlocBuilder<ArticlesBloc, ArticlesState>(
                 builder: (context, state) {

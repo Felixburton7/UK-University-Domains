@@ -4,6 +4,9 @@ import 'package:four_flutter_pp_fun/src/features/presentation/bloc/articles_bloc
 
 class UniversityTextField extends StatelessWidget {
   final TextEditingController _controller = TextEditingController();
+  final ArticlesBloc articlesBloc;
+
+  UniversityTextField({required this.articlesBloc});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +19,7 @@ class UniversityTextField extends StatelessWidget {
             border: OutlineInputBorder(),
           ),
           onSubmitted: (value) {
-            context.read<ArticlesBloc>().add(FetchArticlesEvent(value));
+            articlesBloc.add(FetchArticlesEvent(value));
           },
         ),
         const SizedBox(height: 10),
