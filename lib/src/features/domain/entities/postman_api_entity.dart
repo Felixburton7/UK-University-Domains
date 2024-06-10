@@ -1,4 +1,4 @@
-// Model for data
+// Model for data | This can be reconfigueed and for a new api - Felix
 
 abstract class Article {
   final List<String> domains;
@@ -12,6 +12,8 @@ abstract class Article {
       required this.name,
       required this.country});
 }
+
+// Example of Data Structure
 
 // [{"domains": ["middlebury.edu"], "name": "Middlebury College", "state-province": null, "country": "United States", "alpha_two_code": "US", "web_pages": ["http://www.middlebury.edu/"]},
 
