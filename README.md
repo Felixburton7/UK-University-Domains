@@ -1,4 +1,4 @@
-# A Clean Architecture project I created, that you can refactor to use with a different API.
+# API Search project. 
 
 ## Project Description
 
