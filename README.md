@@ -1,4 +1,4 @@
-# API Search project. 
+# API Search project
 
 ## Project Description
 
